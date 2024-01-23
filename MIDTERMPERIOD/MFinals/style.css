@@ -1,0 +1,119 @@
+head {
+    align: center
+}
+
+.topnav {
+    overflow: hidden;
+    background-color: #e9e9e9;
+  }
+
+  form {
+    background-color: #4654e1;
+    width: 300px;
+    height: 44px;
+    border-radius: 5px;
+    display:flex;
+    flex-direction:row;
+    align-items:center;
+  }
+  
+  input {
+    all: unset;
+    font: 16px system-ui;
+    height: 100%;
+    width: 100%;
+    padding: 6px 10px;
+  }
+  
+  ::placeholder {
+    color: #fff;
+    opacity: 0.7; 
+  }
+  
+  svg {
+    color: #fff;
+    fill: currentColor;
+    width: 24px;
+    height: 24px;
+    padding: 10px;
+  }
+  
+  button {
+    all: unset;
+    cursor: pointer;
+    width: 44px;
+    height: 44px;
+  }
+
+  
+  /* Style the links inside the navigation bar */
+  .topnav a {
+    float: left;
+    display: block;
+    color: black;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+  }
+body{
+    font-family: "Arial";
+    background-color: aqua;
+    background-image: url(tokays.jpeg);
+}
+
+.center{
+    margin:auto
+}
+
+h1{
+    text-align:center;
+    margin:auto
+}
+
+h2{
+    margin:auto
+}
+
+.button {
+    background-color: #58701b; /* Green */
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+  }
+
+table{
+    border: 15px solid black;
+    border-collapse: collapse;
+    width: 100%;
+}
+
+ th, td{
+    border: 5px solid black;
+    width: 10%;
+    text-align: left;
+    padding: 8px;
+    border-bottom: 1px solid rgb(12, 113, 29);
+}
+
+th {
+    border: 5px solid black;
+    background-color: rgb(194, 203, 30);
+    width:10%
+    
+}
+
+
+
+tr:nth-child(even) {
+    background-color: #2cef1f;
+}
+
+tr:nth-child(odd) {
+    background-color: #c5ef1f;
+}
+

@@ -1,0 +1,79 @@
+head {
+    align: center
+}
+.topnav {
+    overflow: hidden;
+    background-color: #17831c;
+  }
+
+  .topnav a {
+    float: left;
+    display: block;
+    color: black;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+  }
+  
+ 
+body{
+    font-family: "Arial";
+    background-color: aqua;
+    background-image: url(tokays.jpeg);
+}
+
+.center{
+    margin:auto
+}
+
+h1{
+    text-align:center;
+    margin:auto
+}
+
+h2{
+    margin:auto
+}
+
+.button {
+    background-color: #58701b; /* Green */
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+  }
+
+table{
+    border: 15px solid black;
+    border-collapse: collapse;
+    width: 100%;
+}
+
+ th, td{
+    border: 5px solid black;
+    width: 10%;
+    text-align: left;
+    padding: 8px;
+    border-bottom: 1px solid rgb(12, 113, 29);
+}
+
+th {
+    border: 5px solid black;
+    background-color: rgb(194, 203, 30);
+    width:10%
+    
+}
+
+
+
+tr:nth-child(even) {
+    background-color: #2cef1f;
+}
+
+tr:nth-child(odd) {
+    background-color: #c5ef1f;
+}
